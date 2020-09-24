@@ -2,6 +2,7 @@
 
 Compiler Features:
  * SMTChecker: Support ``addmod`` and ``mulmod``.
+ * SMTChecker: Support array slices.
 
 
 ### 0.7.2 (2020-09-28)
