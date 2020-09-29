@@ -1,4 +1,25 @@
-Error: Expected pragma, import directive or contract/interface/library/struct/enum/function definition.
+Error: Expected identifier but got end of source
+ --> recovery_ast_empty_contract/input.sol:3:2:
+  |
+3 | c
+  |  ^
+
+Error: Expected ';' but got end of source
+ --> recovery_ast_empty_contract/input.sol:3:2:
+  |
+3 | c
+  |  ^
+
+Error: Invalid pragma "0.5"
+ --> recovery_ast_empty_contract/input.sol:2:1:
+  |
+2 | pragma 0.5.11;
+  | ^^^^^^^^^^^^^^
+
+Warning: Source file does not specify required compiler version!
+--> recovery_ast_empty_contract/input.sol
+
+Error: Identifier not found or not unique.
  --> recovery_ast_empty_contract/input.sol:3:1:
   |
 3 | c
